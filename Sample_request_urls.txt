@@ -1,0 +1,27 @@
+
+
+http://localhost/api/Product/UpdateProduct
+
+{
+        "ProductID":1,
+        "ProductName": "C type cable",
+        "Description": "Test",
+        "Supplier": "MI",
+        "Quantity": "10",
+        "UnitPrice": "299",
+        "OrderID": "93452789556"
+    }
+
+http://localhost/api/Product/InsertProduct
+
+{
+        "ProductName": "C type cable",
+        "Description": "Test",
+        "Supplier": "MI",
+        "Quantity": "10",
+        "UnitPrice": "299",
+        "OrderID": "93452789556"
+    }
+
+http://localhost/api/Product/GetProductById?id=1
+http://localhost/api/Product/GetAllProducts
